@@ -7,7 +7,7 @@ public class bai_tap {
         int n = sc.nextInt();
         int[] arr = new int[n];
         for (int i =0; i <n;i++){
-            arr[i] = sc.nextInt();
+             arr[i] = sc.nextInt();
         }
         ArrayList<Integer> arrl = new ArrayList<Integer>();
         for (int i = 0; i < n; i++) {
