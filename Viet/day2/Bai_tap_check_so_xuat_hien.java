@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bai_tap {
+public class Bai_tap_check_so_xuat_hien {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -24,7 +24,7 @@ public class bai_tap {
             }
             if (ga && dem > 1){
 
-                System.out.print(arr[i] + " was repeated " + dem + " times");
+                System.out.println(arr[i] + " was repeated " + dem + " times");
 
             }
             arrl.add(arr[i]);

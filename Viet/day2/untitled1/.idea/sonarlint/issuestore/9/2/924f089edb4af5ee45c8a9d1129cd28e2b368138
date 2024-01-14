@@ -1,13 +1,0 @@
-
-{
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÂÇùĞúÿÿÿÿ8ÿ¿ª•Ï1
-7
-java:S1220""Move this file to a named package.8€Àª•Ï1
-J
-java:S1481
-"(Remove this unused "dem" local variable.(‰ÂÀØûÿÿÿÿ8—Àª•Ï1
-F	java:S106"+Replace this use of System.out by a logger.(ÿİâ08œÀª•Ï1
-M
-java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Àª•Ï1
-K
-java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8Àª•Ï1

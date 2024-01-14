@@ -1,9 +1,6 @@
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 
-public class Main {
+public class Bảitap {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int [] arr = new int[5];
