@@ -1,5 +1,7 @@
+package day2;
+
 //In ra các số từ 1 đến 100 mà chia hết cho 2
-public class Ex2 {
+public class Exercise2 {
     public static void main(String[] args) {
 
 

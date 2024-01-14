@@ -1,5 +1,7 @@
+package day2;
+
 //tong cac so nguyen tu 1 den 1000: do - while
-public class Ex1_3 {
+public class Exercise1_3 {
     public static void main(String[] args) {
 
         int i = 1, sum = 0;

@@ -1,7 +1,9 @@
+package day2;
+
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Ex4 {
+public class Exercise4 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         System.out.print("Nhap so nguyen n: ");

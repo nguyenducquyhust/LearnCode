@@ -1,4 +1,4 @@
-//Tinh tong 2 so nhap tu ban phim va in ra man hinh
+package day1;//Tinh tong 2 so nhap tu ban phim va in ra man hinh
 
 import java.util.Scanner;
 

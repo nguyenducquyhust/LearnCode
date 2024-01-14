@@ -1,8 +1,8 @@
-//Nhập vào N số, sau đó in ra số đầu tiên và gần cuối cùng
+package day2;//Nhập vào N số, sau đó in ra số đầu tiên và gần cuối cùng
 
 import java.util.Scanner;
 
-public class Ex3 {
+public class Exercise3 {
     public static void main(String[] args) {
         Scanner console = new Scanner(System.in);
         int n;
@@ -10,11 +10,11 @@ public class Ex3 {
             System.out.print("Nhap so n: ");
             n = console.nextInt();
         } while (n <= 0);
-        int array[] = new int[n]; //thiet lap mang
+        int[] array = new int[n]; //thiet lap mang
 
         for (int i = 0; i < n; i++) {
             int a = i + 1;
-            System.out.println("Nhap so thu" + " " + a + ": ");
+            System.out.print("Nhap so thu" + " " + a + ": ");
             array[i] = console.nextInt();  //nhap gia tri cac phan tu
         }
 

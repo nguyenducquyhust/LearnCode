@@ -1,6 +1,8 @@
+package day1;
+
 import java.util.Scanner;
 
-public class Ex1 {
+public class Exercise1 {
     public static void main(String[] args) {
         int n;
         float sum = 0;
