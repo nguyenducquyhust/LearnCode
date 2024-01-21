@@ -1,6 +1,4 @@
 
-J
-excercicse 4/src/Main.java,c\2\c2b7bdbe7f9e9dc92dac4e77d627858f6972a4c3
 I
 excercicse 4/src/Ex4.java,f\4\f40773b5b7c3b51cd904760128b5b1d00ad08979
 K
