@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex6 {
+public class Ex8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;
@@ -15,12 +15,13 @@ public class Ex6 {
         for (int i = 0; i < n; i++) {
             a[i] = scanner.nextInt();
         }
-        int sum = 0;
-        for (int j = 0; j < n; j++) {
-            if (a[j] % 5 == 0) {
-                sum += a[j];
+        int chan = 0;
+        for (int j = n-1; j > 0; j--) {
+            if (a[j] % 2 == 0) {
+                chan = a[j];
+                break;
             }
         }
-        System.out.println("Tong cac phan tu trong mang chia het cho 5 la: " + sum);
+        System.out.println("Gia tri so chan cuoi cung cua mang la: " + chan);
     }
 }
