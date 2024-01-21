@@ -25,6 +25,7 @@ public class Buoi3 {
 
             switch (option) {
                 case 1:
+                    //Bài 1: Nhập vào 1 chuỗi bất kỳ và kiểm tra xem chuỗi đó có chứa ký tự số hay ko ?
                     System.out.println("Xin mời nhập chuỗi kiểm tra: ");
                     String chuoi1 = scanner.nextLine();
 
@@ -36,6 +37,7 @@ public class Buoi3 {
                     }
                     break;
                 case 2:
+                    //Bài 2: Nhập vào 1 chuỗi và cắt những ký tự trắng ( space ) ở cuối chuỗi theo 2 cách
                     System.out.println("Xin mời nhập chuỗi kiểm tra: ");
                     String chuoi2 = scanner.nextLine();
 
@@ -67,6 +69,7 @@ public class Buoi3 {
                     System.out.println(a);
                     break;
                 case 3:
+                    //Bài 3 : In ra những số chẵn từ 1 - 100 sử dụng continue
                     System.out.println("Các số chẵn từ 1-100 là: ");
                     for (int i = 1; i <= 100; i++) {
                         if (i % 2 == 0) {
@@ -76,6 +79,7 @@ public class Buoi3 {
                     }
                     break;
                 case 4:
+                    //Bài 4: Kiểm tra trong chuỗi vừa nhập có ký tự In hoa hay ko ?
                     System.out.println("Xin mời nhập chuỗi kiểm tra: ");
                     String chuoi4 = scanner.nextLine();
 
@@ -87,6 +91,7 @@ public class Buoi3 {
                     }
                     break;
                 case 5:
+                    //Bài 5: Nhập từ bàn phím 1 ký tự và 1 chuỗi bất kỳ, kiểm tra xem trong chuỗi  có chứa ký tự đó hay ko ?
                     System.out.println("mời bạn nhập chuỗi cần thao tác: ");
                     String chuoi5 = scanner.nextLine();
                     char[] arraychuoi5 = chuoi5.toCharArray();
