@@ -161,26 +161,34 @@ public class Buoi3 {
                     }
 
                     // bài 9: Tìm vị trí phần tử dương nhỏ nhất trong mảng
-                    int min=giaTriDuongDauTien;
-                    for (int i=1;i<mangInt.length;i++){
-                        if (mangInt[i]>0&& mangInt[i]<min){
-                            min=mangInt[i];
-                        }else {
-                            continue;
+                    if (giaTriDuongDauTien>0) {
+                        int min = giaTriDuongDauTien;
+                        for (int i = 1; i < mangInt.length; i++) {
+                            if (mangInt[i] > 0 && mangInt[i] < min) {
+                                min = mangInt[i];
+                            } else {
+                                continue;
+                            }
                         }
+                        System.out.println("Bài 9: phần tử dương nhỏ nhất trong mảng là: " + min);
+                    }else {
+                        System.out.println("mảng đã tạo không có giá trị dương nào");
                     }
-                    System.out.println("Bài 9: phần tử dương nhỏ nhất trong mảng là: "+ min);
 
                     //Bài 10: Tìm giá trị dương lớn nhất trong mảng
-                    int max=giaTriDuongDauTien;
-                    for (int i=1;i<mangInt.length;i++){
-                        if (mangInt[i]>0&& mangInt[i]>max){
-                            min=mangInt[i];
-                        }else {
-                            continue;
+                    if (giaTriDuongDauTien>0) {
+                        int max = giaTriDuongDauTien;
+                        for (int i = 1; i < mangInt.length; i++) {
+                            if (mangInt[i] > 0 && mangInt[i] > max) {
+                                max = mangInt[i];
+                            } else {
+                                continue;
+                            }
                         }
+                        System.out.println("Bài 10: phần tử dương lớn nhất trong mảng là: " + max);
+                    }else {
+                        System.out.println("mảng bạn đã cho không có phần tử dương nào");
                     }
-                    System.out.println("Bài 10: phần tử dương lớn nhất trong mảng là: "+ min);
                     break;
                 case 7:
                     System.exit(0);
