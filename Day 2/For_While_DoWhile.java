@@ -29,7 +29,7 @@ public class For_While_DoWhile {
             System.out.println(c);
         }
 
-        int d = 0;
+        int d = 1;
         while (d <= 10 ){
             d++;
             System.out.println(d);
