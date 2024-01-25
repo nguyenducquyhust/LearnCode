@@ -6,11 +6,11 @@ public class Bai5 {
         System.out.println("Nhap vao mot chuoi:");
         String string = scanner.nextLine();
         System.out.println("nhap vao mot ky tu:");
-        char Char = scanner.next().charAt(0);
+        char cHar = scanner.next().charAt(0);
         boolean kytucotrongchuoi = false;
         char[] array = string.toCharArray();
         for (int i = 0; i < string.length(); i++){
-            if (array[i] == Char){
+            if (array[i] == cHar){
                 kytucotrongchuoi = true;
                 break;
             }
