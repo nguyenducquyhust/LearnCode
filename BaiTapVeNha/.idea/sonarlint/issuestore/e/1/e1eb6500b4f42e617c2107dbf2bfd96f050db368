@@ -1,0 +1,17 @@
+
+P
+java:S11216".Extract the assignment out of this expression.(…ҐУФъяяяя8ЬбаѓФ1
+v
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "a".(Љ‘їх8ЬбаѓФ1
+~
+java:S1488!"\Immediately return this expression instead of assigning it to the temporary variable "hieu".(Й«тЫяяяяя8ЬбаѓФ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ЇНЏаэяяяя8ЬбаѓФ1
+L	java:S106"+Replace this use of System.out by a logger.(э —Ёшяяяя8мбаѓФ1
+L	java:S106"+Replace this use of System.out by a logger.(ЉёПОъяяяя8мбаѓФ1
+L	java:S106"+Replace this use of System.out by a logger.(™™Жљыяяяя8мбаѓФ1
+G	java:S106+"+Replace this use of System.out by a logger.(ҐЪЌФ8мбаѓФ1
+t
+java:S37761"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(чы•Ўъяяяя8мбаѓФ1
+Z
+java:S18546"8Remove this useless assignment to local variable "uCLN".(…ҐУФъяяяя8мбаѓФ1
+L	java:S1065"+Replace this use of System.out by a logger.(эзЖЉэяяяя8мбаѓФ1

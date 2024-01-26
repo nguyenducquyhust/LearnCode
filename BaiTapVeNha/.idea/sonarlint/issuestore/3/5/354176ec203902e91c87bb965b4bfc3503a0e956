@@ -1,0 +1,10 @@
+
+7
+java:S1220""Move this file to a named package.8ÜÀ×§Ô1
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8ŞÀ×§Ô1
+X	java:S125"<This block of commented-out lines of code should be removed.(¬¢Ô‘8ŞÀ×§Ô1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ßÀ×§Ô1
+P
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8ßÀ×§Ô1

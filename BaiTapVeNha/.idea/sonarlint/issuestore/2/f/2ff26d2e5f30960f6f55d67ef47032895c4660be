@@ -1,0 +1,31 @@
+
+{
+java:S1488<"YImmediately return this expression instead of assigning it to the temporary variable "a".(ÁğŒùÿÿÿÿ8ÒˆÔ1
+g
+java:S2184A"ECast one of the operands of this subtraction operation to a "double".(ÔÜ—œüÿÿÿÿ8ÒˆÔ1
+_
+java:S2184H"BCast one of the operands of this division operation to a "double".(³¦Û½8ÒˆÔ1
+]
+java:S2184H"@Cast one of the operands of this integer division to a "double".(³¦Û½8ÒˆÔ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯Íàıÿÿÿÿ8ÅˆÔ1
+D
+java:S2189""Add an end condition to this loop.(ü§è½ùÿÿÿÿ8§³ÎˆÔ1
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Çµí‘8ÛªÑˆÔ1
+L	java:S106"+Replace this use of System.out by a logger.(İŒãüùÿÿÿÿ8™ÅˆÔ1
+L	java:S106"+Replace this use of System.out by a logger.(Ú¼×™ûÿÿÿÿ8šÅˆÔ1
+F	java:S106"+Replace this use of System.out by a logger.(Ê™ n8šÅˆÔ1
+L	java:S106"+Replace this use of System.out by a logger.(í“°…úÿÿÿÿ8šÅˆÔ1
+L	java:S106"+Replace this use of System.out by a logger.(«¾›õüÿÿÿÿ8šÅˆÔ1
+G	java:S106"+Replace this use of System.out by a logger.(ïÖ·“8šÅˆÔ1
+L	java:S106"+Replace this use of System.out by a logger.(¯àØîùÿÿÿÿ8šÅˆÔ1
+L	java:S106"+Replace this use of System.out by a logger.(»‘­òÿÿÿÿÿ8›ÅˆÔ1
+G	java:S106"+Replace this use of System.out by a logger.(†¼¤±8›ÅˆÔ1
+G	java:S106 "+Replace this use of System.out by a logger.(™„Š²8›ÅˆÔ1
+G	java:S106%"+Replace this use of System.out by a logger.(ğ¯¨Â8›ÅˆÔ1
+G	java:S106-"+Replace this use of System.out by a logger.(ğ¯¨Â8ÅˆÔ1
+L	java:S106F"+Replace this use of System.out by a logger.(õ°—‰ûÿÿÿÿ8ÒˆÔ1
+G	java:S106I"+Replace this use of System.out by a logger.(çµ¼‡8ÒˆÔ1
+G	java:S106M"+Replace this use of System.out by a logger.(¥ğØõ8•ÒˆÔ1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8¯³ÎˆÔ1
