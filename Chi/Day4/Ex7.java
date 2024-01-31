@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex10 {
+public class Ex7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n;
@@ -15,12 +15,13 @@ public class Ex10 {
         for (int i = 0; i < n; i++) {
             a[i] = scanner.nextInt();
         }
-        int Max = 0;
-        for (int j = 1; j <= n; j++) {
-            if ((a[j] > Max) && (a[j] > 0)) {
-                Max = a[j];
+        int duong = 0;
+        for (int j = 0; j < n; j++) {
+            if (a[j] > 0) {
+                duong = a[j];
+                break;
             }
         }
-        System.out.println("Gia tri duong lon nhat trong mang la: " + Max);
+        System.out.println("Gia tri duong dau tien cua mang la: " + duong);
     }
 }
