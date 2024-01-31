@@ -1,7 +1,6 @@
 package day5;
 
 import java.util.Scanner;
-
 import static day5.Exercise2.print;
 import static day5.Exercise2.println;
 
@@ -68,11 +67,20 @@ public class Exercise3 {
                     case 13:        //Kiểm tra có chuỗi nào chứa ký tự c vừa nhập không
                         option13(array);
                         break;
+                    case 14:        //Mỗi chuỗi trong mảng có bao nhiêu từ
+                        option14(array);
+                        break;
                     case 15:        //Nhập và chèn 1 ký tự vào vị trí 5 của chuỗi cuối
                         option15(array);
                         break;
+                    case 16:        //Nhập M chuỗi và kiểm tra chuỗi M xuất hiện bao nhiêu lần trong N chuỗi
+                        option16(array);
+                        break;
                     case 17:        //Nối tất cả các chuỗi và in ra
                         option17(array);
+                        break;
+                    case 18:        //Hiển thị những chuỗi chứa chuỗi đầu tiên
+                        option18(array);
                         break;
                     case 19:        //Kiểm tra chuỗi đầu tiên có bắt đầu bằng chuỗi (hello) không
                         option19(array);
@@ -86,6 +94,15 @@ public class Exercise3 {
                     case 22:        //Nhập một độ dài và in những chuỗi có độ dài bằng độ dài vừa nhập
                         option22(array);
                         break;
+                    case 23:        //Đếm số từ trong chuỗi thứ N - 1
+                        option23(array);
+                        break;
+                    case 24:        //Chuỗi thứ hai trong mảng chuyển thành chuỗi in HOA
+                        option24(array);
+                        break;
+                    case 25:        //Xóa ký tự trắng ở chuỗi cuối cùng
+                        option25(array);
+                        break;
                     default:
                         println("Không hợp lệ. Mời nhập lại.");
                         break;
@@ -95,6 +112,7 @@ public class Exercise3 {
             }
         }
     }
+
 
     static int soPhanTu() {
         Scanner scanner = new Scanner(System.in);
@@ -121,10 +139,10 @@ public class Exercise3 {
                 int j = i + 1;
                 print("Nhập chuỗi thứ " + j + ": ");
                 array[i] = scanner.nextLine();
-                if (array[i].length() <= 30) {
+                if (array[i].length() <= 30 && !array[i].isEmpty()) {
                     break;
                 } else {
-                    println("Chuỗi dài hơn kích thước yêu cầu. Mời nhập lại.");
+                    println("Chuỗi thứ " + j + " không thỏa mãn. Mời nhập lại.");
                 }
             }
         }
@@ -137,10 +155,10 @@ public class Exercise3 {
         while (true) {
             print("Nhập một chuỗi st có kích thước tối đa 30: ");
             st = scanner.nextLine();
-            if (st.length() <= 30) {
+            if (st.length() <= 30 && !st.isEmpty()) {
                 break;
             } else {
-                println("Chuỗi dài hơn kích thước yêu cầu. Mời nhập lại.");
+                println("Chuỗi không thỏa mãn. Mời nhập lại.");
             }
         }
         return st;
@@ -251,8 +269,8 @@ public class Exercise3 {
     static void option8(String[] array) {   //Nhập một chuỗi st. Tìm chuỗi có kích thước bằng & có chứa st
         String st = nhapChuoiST();
         int[] stringLength = stringLength(array);
-        boolean check1 = true;
 
+        boolean check1 = true;
         println("Chuỗi trong mảng có kích thước bằng chuỗi st: ");
         for (int i = 0; i < array.length; i++) {
             if (stringLength[i] == st.length()) {
@@ -265,30 +283,19 @@ public class Exercise3 {
             println("Không có chuỗi nào trong mảng bằng kích thước chuỗi st.");
         }
 
-        println("\nChuỗi trong mảng có chứa st: ");
-        char[] charST = st.toCharArray();
         boolean check2 = true;
+        println("\nChuỗi trong mảng có chứa st: ");
         for (int i = 0; i < array.length; i++) {
-            char[] charArray = array[i].toCharArray();
-            for (int j = 0; j < array[i].length() - st.length() + 1; j++) {
-                boolean check3 = true;
-                for (int k = 0; k < st.length(); k++) {
-                    if (charArray[j + k] != charST[k]) {
-                        check3 = false;
-                        break;
-                    }
-                }
-                if (check3) {
-                    int a = i + 1;
-                    println("- Chuỗi thứ " + a + ": " + array[i]);
-                    check2 = false;
-                }
+            if (array[i].contains(st)) {
+                check2 = false;
+                int j = i + 1;
+                println("- Chuỗi thứ " + j + ": " + array[i]);
             }
         }
-
         if (check2) {
             println("Không có chuỗi nào trong mảng chứa chuỗi st");
         }
+
         println("_Kết thúc công việc 8_");
     }
 
@@ -318,6 +325,7 @@ public class Exercise3 {
         }
         println("_Kết thúc công việc 9_");
     }
+
 
     static void option11(String[] array) {         //Tìm những chuỗi có ký tự số
         boolean foundNumber = true;
@@ -389,6 +397,28 @@ public class Exercise3 {
         println("_Kết thúc công việc 13_");
     }
 
+    static void option14(String[] array) {      //Mỗi chuỗi trong mảng có bao nhiêu từ
+        for (int i = 0; i < array.length; i++) {
+            boolean foundSplit = true;
+            int wordCount = 0;
+            for (int j = 0; j < array[i].length(); j++) {
+                if (array[i].charAt(j) != ' ' && array[i].charAt(j) != '\t' && array[i].charAt(j) != '\n') {
+                    if (foundSplit) {
+                        wordCount++;
+                        foundSplit = false;
+                    }
+                } else {
+                    foundSplit = true;
+                }
+            }
+
+            int k = i + 1;
+            println("- Chuỗi thứ " + k + " có " + wordCount + " từ.");
+        }
+
+        println("_Kết thúc công việc 14_");
+    }
+
     static void option15(String[] array) {       //Nhập và chèn 1 ký tự vào vị trí 5 của chuỗi cuối
         Scanner scanner = new Scanner(System.in);
         print("Nhập một ký tự bất kỳ: ");
@@ -397,7 +427,7 @@ public class Exercise3 {
         char[] newStr = new char[array[array.length - 1].length() + 1];
 
         println("Ký tự " + kyTu + " được chèn vào vị trí thứ 5 của chuỗi cuối cùng trong mảng.");
-        println("Chuỗi mới là: ");
+        print("Chuỗi mới là: ");
 
         for (int i = 0; i <= array[array.length - 1].length(); i++) {
             if (i < 4) {
@@ -411,7 +441,37 @@ public class Exercise3 {
             print(String.valueOf(newStr[i]));
         }
 
-        println("_Kết thúc công việc 15_");
+        println("\n_Kết thúc công việc 15_");
+    }
+
+    static void option16(String[] array) {     //Nhập M chuỗi và kiểm tra chuỗi M xuất hiện bao nhiêu lần trong N chuỗi
+        String[] secondArray;
+
+        println("_Nhập số phần tử cho mảng mới nhỏ hơn số phần tử mảng ban đầu_");
+        while (true) {
+            int soPhanTuM = soPhanTu();
+            if (soPhanTuM >= array.length) {
+                println("Không thỏa mãn. Mời nhập lại.");
+            } else {
+                secondArray = nhapChuoiTrongMang(soPhanTuM);
+                break;
+            }
+        }
+
+        println("\n_Số lần mỗi chuỗi trong mảng mới xuất hiện trong mảng ban đầu_");
+        int[] sum = new int[secondArray.length];
+        for (int i = 0; i < secondArray.length; i++) {
+            sum[i] = 0;
+            for (String s : array) {
+                if (s.contains(secondArray[i])) {
+                    sum[i] += 1;
+                }
+            }
+            int j = i + 1;
+            println("- Chuỗi thứ " + j + " trong mảng mới xuất hiện: " + sum[i] + " lần.");
+        }
+
+        println("_Kết thúc công việc 16_");
     }
 
     static void option17(String[] array) {           //Nối tất cả các chuỗi và in ra
@@ -421,6 +481,17 @@ public class Exercise3 {
 
         println("Nối tất cả các chuỗi trong mảng: " + array[0]);
         println("_Kết thúc công việc 17_");
+    }
+
+    static void option18(String[] array) {      //Hiển thị những chuỗi chứa chuỗi đầu tiên
+        println("Chuỗi trong mảng có chứa chuỗi đầu tiên: ");
+
+        for (int i = 0; i < array.length; i++) {
+            if (array[i].contains(array[0])) {
+                int j = i + 1;
+                println("- Chuỗi thứ " + j + ": " + array[i]);
+            }
+        }
     }
 
     static void option19(String[] array) {      //Kiểm tra chuỗi đầu tiên có bắt đầu bằng chuỗi (hello) không
@@ -514,6 +585,59 @@ public class Exercise3 {
 
 
         println("_Kết thúc công việc 22_");
+    }
+
+    static void option23(String[] array) {    //Đếm số từ trong chuỗi thứ N - 1
+        boolean foundSplit = true;
+        int wordCount = 0;
+        int pos = array.length - 2;
+        for (int i = 0; i < array[pos].length(); i++) {
+            if (array[pos].charAt(i) != ' ' && array[pos].charAt(i) != '\t' && array[pos].charAt(i) != '\n') {
+                if (foundSplit) {
+                    wordCount++;
+                    foundSplit = false;
+                }
+            } else {
+                foundSplit = true;
+            }
+        }
+
+        int i = pos + 1;
+        println("Chuỗi thứ " + i + " có " + wordCount + " từ.");
+        println("_Kết thúc công việc 23_");
+    }
+
+    static void option24(String[] array) {
+        println("_Chuỗi thứ hai trong mảng chuyển thành chuỗi in HOA_");
+        if (array.length > 1) {
+            char[] charArray = array[2].toCharArray();
+            for (int i = 0; i < charArray.length; i++) {
+                if (Character.isLetter(charArray[i])) {
+                    charArray[i] = Character.toUpperCase(charArray[i]);
+                }
+            }
+
+            println("Chuỗi thứ hai mới là: " + String.valueOf(charArray));
+        } else {
+            println("Mảng không có chuỗi thứ hai.");
+        }
+
+        println("_Kết thúc công việc 24_");
+    }
+
+    static void option25(String[] array) {                     //Xóa ký tự trắng ở chuỗi cuối cùng
+        String lastStr = array[array.length - 1];
+        char[] charLastStr = lastStr.toCharArray();
+        for (int i = array[array.length - 1].length() - 1; i >= 0; i--) {
+            if (charLastStr[i] != 32) {
+                break;
+            } else {
+                lastStr = lastStr.substring(0, lastStr.length() - 1);
+            }
+        }
+
+        println("Chuỗi cuối cùng sau khi được xóa ký tự trắng ở cuối: " + lastStr);
+        println("_Kết thúc công việc 25_");
     }
 }
 
