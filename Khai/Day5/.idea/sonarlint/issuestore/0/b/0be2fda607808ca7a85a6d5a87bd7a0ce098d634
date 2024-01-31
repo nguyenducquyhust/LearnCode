@@ -1,0 +1,40 @@
+
+z	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8å¡®ñÕ1
+j
+java:S1104"MMake n a static final constant or non-public and provide accessors if needed.(ÓœşÚ8é¡®ñÕ1
+j
+java:S1104"MMake a a static final constant or non-public and provide accessors if needed.(ªŠ‰Á8é¡®ñÕ1
+o
+java:S1104"MMake b a static final constant or non-public and provide accessors if needed.(ÂÄÆÙüÿÿÿÿ8é¡®ñÕ1
+j
+java:S1104"MMake c a static final constant or non-public and provide accessors if needed.(îµ¡­8é¡®ñÕ1
+k
+java:S1104	"NMake n1 a static final constant or non-public and provide accessors if needed.(ŞÏ˜¹8é¡®ñÕ1
+k
+java:S1104
+"NMake n2 a static final constant or non-public and provide accessors if needed.(ÔŠÚµ8é¡®ñÕ1
+j
+java:S1104"NMake n3 a static final constant or non-public and provide accessors if needed.(¾òê8ê¡®ñÕ1
+D
+java:S1444"'Make this "public static n" field final(ÓœşÚ8ë¡®ñÕ1
+D
+java:S1444"'Make this "public static a" field final(ªŠ‰Á8ë¡®ñÕ1
+I
+java:S1444"'Make this "public static b" field final(ÂÄÆÙüÿÿÿÿ8ë¡®ñÕ1
+D
+java:S1444"'Make this "public static c" field final(îµ¡­8ë¡®ñÕ1
+E
+java:S1444	"(Make this "public static n1" field final(ŞÏ˜¹8ë¡®ñÕ1
+E
+java:S1444
+"(Make this "public static n2" field final(ÔŠÚµ8ë¡®ñÕ1
+D
+java:S1444"(Make this "public static n3" field final(¾òê8ë¡®ñÕ1
+m	java:S1281"LEnd this switch case with an unconditional break, return or throw statement.(úâúÿÿÿÿ8—¢®ñÕ1
+=	java:S131+""Add a default case to this switch.(Âúïi8˜¢®ñÕ1
+J
+java:S1905@"(Remove this unnecessary cast to "float".(†ä³Âüÿÿÿÿ8›¢®ñÕ1
+J
+java:S1905A"(Remove this unnecessary cast to "float".(å¤ŒŠúÿÿÿÿ8›¢®ñÕ1
+J
+java:S1905H"(Remove this unnecessary cast to "float".(™î²ğùÿÿÿÿ8œ¢®ñÕ1
