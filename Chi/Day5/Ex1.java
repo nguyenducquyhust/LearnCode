@@ -7,15 +7,22 @@ public class Ex1 {
         float soThuNhat = nhapLieu();
         System.out.print("Nhap so thu hai: ");
         float soThu2 = nhapLieu();
+
         // Tim hieu 2 so
-        System.out.println("Hieu cua hai so la: " + hieu(soThuNhat, soThu2));
+        float hieu = hieu(soThuNhat, soThu2);
+        System.out.println("Hieu cua hai so la: " + hieu);
+
         //Tinh thuong hai so
-        System.out.println("Thuong cua hai so la: " + thuong(soThuNhat, soThu2));
+        float thuong = thuong(soThuNhat, soThu2);
+        System.out.println("Thuong cua hai so la: " + thuong);
+
         //Tinh UCLN hai so
         int kiemTraSoThuNhat = kiemTraso(soThuNhat);
         int kiemTraSoThu2 = kiemTraso(soThu2);
-        if (kiemTraSoThuNhat == 1 && kiemTraSoThu2 == 1) {
-            System.out.println("Uoc chung lon nhat cua hai so la: " + uocChungLonNhat(soThuNhat, soThu2));
+        int UCLN = uocChungLonNhat(soThuNhat, soThu2);
+
+        if (kiemTraSoThuNhat == 1 && kiemTraSoThu2 == 1 && UCLN != 0) {
+            System.out.println("Uoc chung lon nhat cua hai so la: " + UCLN);
         } else {
             System.out.println("Khong co uoc chung lon nhat");
         }
@@ -56,12 +63,12 @@ public class Ex1 {
     static int uocChungLonNhat(float soThuNhat, float soThu2) {
         int UCLN = 1;
         if (soThuNhat == 0 || soThu2 == 0) {
-            System.out.println("Khong co uoc chung lon nhat");
-        } else {
-            for (int i = 1; i <= Math.abs(soThuNhat) && i <= Math.abs(soThu2); i++) {
-                if (soThuNhat % i == 0 && soThu2 % i == 0) {
-                    UCLN = i;
-                }
+            return 0;
+        }
+
+        for (int i = 1; i <= Math.abs(soThuNhat) && i <= Math.abs(soThu2); i++) {
+            if (soThuNhat % i == 0 && soThu2 % i == 0) {
+                UCLN = i;
             }
         }
         return UCLN;
