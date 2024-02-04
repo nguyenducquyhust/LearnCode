@@ -36,6 +36,12 @@ public class Homework {
                     case 6:
                         option6();
                         break;
+                    case 7:
+                        option7();
+                        break;
+                    case 8:
+                        option8();
+                        break;
                     default:
                         break;
                 }
@@ -307,5 +313,47 @@ public class Homework {
         }
 
         println("\n_Kết thúc chương trình 6_");
+    }
+
+    static void option7() {
+        println("\n* CHƯƠNG TRÌNH 7 *");
+        println("_Nhập vào mã số sinh viên_");
+        println("Yêu cầu định dạng: Bxxxxxxx (x là số nguyên là 1 đến 9)");
+
+        Scanner scanner = new Scanner(System.in);
+        print("\nNhập mã số sinh viên: ");
+        String string = scanner.nextLine();
+        boolean match = string.matches("\\s*B[1-9]{7}\\s*");
+
+        if (match) {
+            println("Mã số ĐÚNG với định dạng.");
+        } else {
+            println("Mã số KHÔNG ĐÚNG với định dạng.");
+        }
+
+        println("\n_Kết thúc chương trình 7_");
+    }
+
+    static void option8() {
+        println("\n* CHƯƠNG TRÌNH 8 *");
+        println("_Nhập một chuỗi_");
+        println("Yêu cầu về chuỗi:");
+        println("- Độ dài không quá 20 ký tự.");
+        println("- Bắt đầu bằng một ký tự chữ viết hoa.");
+        println("- Kết thúc bằng một số.");
+        println("- Không chứa ký tự khoảng trắng.");
+
+        Scanner scanner = new Scanner(System.in);
+        print("\nNhập vào chuỗi: ");
+        String string = scanner.nextLine();
+        boolean match = string.matches("^[A-Z]\\S{0,18}\\d$");
+
+        if (match) {
+            print("Duyệt!");
+        } else {
+            print("Không duyệt");
+        }
+
+        println("\n_Kết thúc chương trình 8_");
     }
 }
