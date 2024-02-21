@@ -1,6 +1,16 @@
 import java.util.Scanner;
 
 public class Bai2mehod {
+    public static float[] a (float[3]a){
+
+    {
+        Scanner sc = new Scanner(System.in);
+        for (int i = 0; i <= 3; i++) {
+            int[i] = sc.nextFloat();
+        }
+    }
+    return a;
+}
      public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int choice;

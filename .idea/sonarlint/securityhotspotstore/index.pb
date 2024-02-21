@@ -5,3 +5,7 @@ Y
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 G
 Viet/day2/Bảitap.java,5\d\5d774dbb1bef1ff4543ccfd3d0f9a664977c8ff4
+C
+Viet/day3/Bai5.java,a\9\a9f72a42741f33db1d503a39a4b5a2a2c809381d
+P
+ Viet/BaitapMethod/Bai2mehod.java,2\d\2d10bab7d8eff8d78d26e673477dcb40eecb52c1
