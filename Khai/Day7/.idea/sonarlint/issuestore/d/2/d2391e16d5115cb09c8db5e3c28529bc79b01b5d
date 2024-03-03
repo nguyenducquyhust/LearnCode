@@ -1,0 +1,37 @@
+
+
+java:S1192?"sDefine a constant instead of duplicating this literal "ThÃ´ng tin khÃ´ng hop lá»‡! Vui lÃ²ng nháº­p láº¡i" 6 times.(–®‘„8İ¸Êõß1
+z
+java:S1192<"XDefine a constant instead of duplicating this literal "ThÃ´ng tin há»£p lá»‡! " 6 times.(ÏŠÔüÿÿÿÿ8İ¸Êõß1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…Ä€¹8à¸Êõß1
+…
+java:S4165"cRemove this useless assignment; "email" already holds the assigned value along all execution paths.(ÍùÅ‡øÿÿÿÿ8†¹Êõß1
+
+java:S4165"dRemove this useless assignment; "diemTb" already holds the assigned value along all execution paths.( Õşş8‡¹Êõß1
+„
+java:S4165"gRemove this useless assignment; "studentId" already holds the assigned value along all execution paths.(ÿ´úş8‡¹Êõß1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ç½Õÿ8‹¹Êõß1
+o
+java:S37760"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¡÷±®8¹Êõß1
+v
+java:S5850t"TGroup parts of the regex together to make the intended operator precedence explicit.(Á±ˆ‰øÿÿÿÿ8¹Êõß1
+E
+java:S6396t"#Remove this unnecessary quantifier.(Á±ˆ‰øÿÿÿÿ8Ÿ¹Êõß1
+^
+java:S6353t"<Use concise character class syntax '\\d' instead of '[0-9]'.(Á±ˆ‰øÿÿÿÿ8Ÿ¹Êõß1
+^
+java:S6353t"<Use concise character class syntax '\\d' instead of '[0-9]'.(Á±ˆ‰øÿÿÿÿ8Ÿ¹Êõß1
+Z
+java:S1117€"<Rename "studentId" which hides the field declared at line 9.(Şî¿ğ8 ¹Êõß1
+H
+java:S5869„"*Remove duplicates in this character class.(Š°‹ƒ8¢¹Êõß1
+Z
+java:S6353„"<Use concise character class syntax '\\d' instead of '[0-9]'.(Š°‹ƒ8¢¹Êõß1
+W
+java:S1117"9Rename "email" which hides the field declared at line 11.(¡Şµ8£¹Êõß1
+L
+java:S1656"/Remove or correct this useless self-assignment.(ÿ´úş8©¹Êõß1
+L
+java:S1656"/Remove or correct this useless self-assignment.( Õşş8©¹Êõß1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ÍùÅ‡øÿÿÿÿ8©¹Êõß1

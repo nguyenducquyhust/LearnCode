@@ -1,0 +1,12 @@
+
+€
+java:S14885"^Immediately return this expression instead of assigning it to the temporary variable "choice".(Á…ìäüÿÿÿÿ8˜ÿÃ÷ß1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…Ä€¹8œÿÃ÷ß1
+D
+java:S2189""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ8ÏÞÉ÷ß1
+G
+java:S1481
+"*Remove this unused "valid" local variable.(›úœí8°ÿÃ÷ß1
+]	java:S125"<This block of commented-out lines of code should be removed.(¾úØœýÿÿÿÿ8²ÿÃ÷ß1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8ÜÞÉ÷ß1

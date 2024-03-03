@@ -1,0 +1,21 @@
+
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ùØÛ\8ÜÖËß1
+„
+java:S4165"bRemove this useless assignment; "name" already holds the assigned value along all execution paths.(ÒÜœöüÿÿÿÿ8ğô³Îß1
+ˆ
+java:S4165"fRemove this useless assignment; "location" already holds the assigned value along all execution paths.(¼ÉĞúúÿÿÿÿ8ğô³Îß1
+ƒ
+java:S4165"aRemove this useless assignment; "dob" already holds the assigned value along all execution paths.(Å¼¬ğùÿÿÿÿ8ğô³Îß1
+†
+java:S4165"dRemove this useless assignment; "gender" already holds the assigned value along all execution paths.(¨±¾øøÿÿÿÿ8ğô³Îß1
+g
+java:S1172
+"JRemove these unused method parameters "name", "gender", "location", "dob".(§„’Š8ğØëÎß1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ÒÜœöüÿÿÿÿ8øô³Îß1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(¨±¾øøÿÿÿÿ8øô³Îß1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(¼ÉĞúúÿÿÿÿ8øô³Îß1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(Å¼¬ğùÿÿÿÿ8øô³Îß1

@@ -1,0 +1,31 @@
+
+
+java:S1192="sDefine a constant instead of duplicating this literal "ThÃ´ng tin khÃ´ng hop lá»‡! Vui lÃ²ng nháº­p láº¡i" 6 times.(–®‘„8®ËêÕß1
+z
+java:S1192:"XDefine a constant instead of duplicating this literal "ThÃ´ng tin há»£p lá»‡! " 6 times.(ÏŠÔüÿÿÿÿ8·ËêÕß1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®¼´ıÿÿÿÿ8¹ËêÕß1
+…
+java:S4165"cRemove this useless assignment; "email" already holds the assigned value along all execution paths.(ÍùÅ‡øÿÿÿÿ8ËËêÕß1
+
+java:S4165"dRemove this useless assignment; "diemTb" already holds the assigned value along all execution paths.( Õşş8ËËêÕß1
+„
+java:S4165"gRemove this useless assignment; "studentId" already holds the assigned value along all execution paths.(ÿ´úş8ËËêÕß1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ç½Õÿ8ÒËêÕß1
+o
+java:S3776."RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(¡÷±®8ÕËêÕß1
+E
+java:S6396r"#Remove this unnecessary quantifier.(†—×‹øÿÿÿÿ8İËêÕß1
+Y
+java:S1117~"<Rename "studentId" which hides the field declared at line 7.(Şî¿ğ8ŞËêÕß1
+H
+java:S5869‚"*Remove duplicates in this character class.(Š°‹ƒ8¡èÖß1
+Z
+java:S6353‚"<Use concise character class syntax '\\d' instead of '[0-9]'.(Š°‹ƒ8²‘Öß1
+V
+java:S1117"8Rename "email" which hides the field declared at line 9.(¡Şµ8áËêÕß1
+L
+java:S1656"/Remove or correct this useless self-assignment.(ÿ´úş8éËêÕß1
+L
+java:S1656"/Remove or correct this useless self-assignment.( Õşş8éËêÕß1
+Q
+java:S1656"/Remove or correct this useless self-assignment.(ÍùÅ‡øÿÿÿÿ8éËêÕß1
