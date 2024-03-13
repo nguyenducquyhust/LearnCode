@@ -1,0 +1,9 @@
+
+v
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(˚∆√Ñ8∞ﬂÄΩ„1
+ç
+java:S13197"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ŸπŸ‰8∞ﬂÄΩ„1
+á
+java:S1319J"jThe type of "danhSachSv" should be an interface such as "List" rather than the implementation "ArrayList".(‚±≥Ã8∞ﬂÄΩ„1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¡Íªx8≤ﬂÄΩ„1
+>	java:S131""Add a default case to this switch.(ç®’…8ﬂﬂÄΩ„1

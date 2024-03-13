@@ -1,0 +1,28 @@
+
+{
+java:S2293n"YReplace the type specification in this constructor call with the diamond operator ("<>").(×Øê¿ûÿÿÿÿ8ôºã1
+Œ
+java:S1319d"jThe type of "danhSachKH" should be an interface such as "List" rather than the implementation "ArrayList".(êÙ‹ßûÿÿÿÿ8‘ôºã1
+’
+java:S1319m"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(º¢ôŸøÿÿÿÿ8’ôºã1
+
+java:S1319"pThe type of "danhSachLinhTinh" should be an interface such as "List" rather than the implementation "ArrayList".(Æ³Ûj8’ôºã1
+‹
+java:S1319‹"hThe type of "danhSach" should be an interface such as "List" rather than the implementation "ArrayList".(Ğü³¾úÿÿÿÿ8’ôºã1
+
+java:S1319œ"jThe type of "danhSachKh" should be an interface such as "List" rather than the implementation "ArrayList".(Ã§‚×úÿÿÿÿ8’ôºã1
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£Èƒh8˜ôºã1
+Z
+java:S2589–"7Remove this expression which always evaluates to "true"(Ë›æøÿÿÿÿ8Ğûºã1
+o
+java:S3776
+"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(Çµí‘8Ûûºã1
+>	java:S131""Add a default case to this switch.(¨ÕÉ8ßûºã1
+n
+java:S3457†"Q%n should be used in place of \n to produce the platform-specific line separator.(‡Æä/8‚üºã1
+u
+java:S3776œ"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ã§‚×úÿÿÿÿ8Ÿüºã1
+F	java:S108Å")Either remove or fill this block of code.(å¥‡8©üºã1
+ã
+java:S6541
+"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 76 to 64, Complexity from 15 to 14, Nesting Level from 4 to 2, Number of Variables from 12 to 6.(Çµí‘8ªüºã1

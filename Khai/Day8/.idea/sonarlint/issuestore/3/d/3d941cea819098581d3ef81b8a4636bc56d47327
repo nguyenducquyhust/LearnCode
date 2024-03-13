@@ -1,0 +1,15 @@
+
+{
+java:S22934"YReplace the type specification in this constructor call with the diamond operator ("<>").(”şïşÿÿÿÿ8í¤—»ã1
+
+java:S13193"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(·Ü—³8ï¤—»ã1
+Š
+java:S1319@"hThe type of "danhSach" should be an interface such as "List" rather than the implementation "ArrayList".(†ØõŸøÿÿÿÿ8ï¤—»ã1
+
+java:S1319Q"pThe type of "danhSachLinhTinh" should be an interface such as "List" rather than the implementation "ArrayList".(ƒª ³8ğ¤—»ã1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸‡¥Í8ó¤—»ã1
+>	java:S131""Add a default case to this switch.(¨ÕÉ8¶¥—»ã1
+m
+java:S3457["Q%n should be used in place of \n to produce the platform-specific line separator.(ĞÄê98»¥—»ã1
+O
+java:S1128"-Remove this unused import 'nganHang.Account'.(´ö÷ºıÿÿÿÿ8Ÿ÷›»ã1
