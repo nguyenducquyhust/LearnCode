@@ -59,6 +59,7 @@ public class Sach {
         this.donGia = scanner.nextLong();
         System.out.print("Nhap so luong: ");
         this.soLuong = scanner.nextInt();
+        scanner.nextLine();
         System.out.print("Nhap nha xuat ban: ");
         this.nhaXuatBan = scanner.nextLine();
     }
