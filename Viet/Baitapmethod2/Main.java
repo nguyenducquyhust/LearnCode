@@ -108,8 +108,8 @@ public class Main {
         for(int i = 0; i <= n; i++){
 
         }
-    }
-    public static void main(String[] args) {
+        public static void main(S
+        }tring[] args) {
         float[] a = {1,100,200,600,800};
         float[] b = {1,2,3,4,5,6,7,8,9};
         Duyetchuoi("adqwdqwd");
